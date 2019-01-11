@@ -82,8 +82,6 @@ At [Miras Technologies International](http://miras-tech.com)  we are using JSpee
 develop Speaker and Speech Recognition Systems.
 
 
-Please inform us if you have used MirasVoice for any porpuses to be added to this list.
-
 ## Cite
 Please cite the following paper in your publication if you are using JSpeech in your research:
 ```bibtex
