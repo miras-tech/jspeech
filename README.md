@@ -1,12 +1,12 @@
 # JSPEECH: A Multi-Lingual Conversational Speech Corpus
 This corpus contains 1332 hours of conversational speech
-from 47 different languages. This corpus can be used in a
-variety of studies, created from 106 public chat group the
-effect of language variability on the performance of speaker
-recognition systems and automatic language detection.
+from 47 different languages and can be used in a
+variety of studies. Scraped from 106 public chat groups, it allows the study of the
+effects of device variability, language variability, and speaker and speech variability on the performance of speaker
+recognition systems and automatic language detection systems. 
 
 It is uploaded in google drive and you can download 
- it after completing the Letter of Consent  [here](https://raw.githubusercontent.com/ajanaliz/important-documents/29dab4024575b73a9a3accc3e45645b3a3941054/Letter%20of%20Consent%20for%20JSPEECH.pdf), and send it to ali.janalizadeh@outlook.com.
+ it after completing the Letter of Consent  [here](https://raw.githubusercontent.com/ajanaliz/important-documents/29dab4024575b73a9a3accc3e45645b3a3941054/Letter%20of%20Consent%20for%20JSPEECH.pdf), and sending a signed copy along with your Gmail address to ali.janalizadeh@outlook.com.
 
 ## JSpeech Description
 
@@ -26,14 +26,12 @@ development of speech technologies that are robust to different
 kinds of background noise.
 
 
-JSpeech is a multilingual speech corpus consisting of roughly
-900 gigabytes of WAV files. Metadata of each file is stored in
+The audio data has been downloaded directly from Telegram using the Telethon API in OGG format. Metadata of each file is stored in
 an SQLite database.
 
-If you want to convert the WAV files, you can use ffmpeg:
-
+To convert the audio to the WAV format, use the following commands in whilest in the directory containing the OGG files:
 ``` 
-sudo apt-get install ffmpeg
+apt-get install ffmpeg
 ffmpeg -i audio.ogg audio.wav
 ```
 
@@ -42,7 +40,7 @@ In order to ensure the diversity and adequacy of the corpus,
 a set of 106 group chats from different backgrounds
 and languages were scraped from the public groups of the [Telegram](https://telegram.org/)
 messaging application. Each voice message has 6
-fields which are described in Table belwo.
+fields which are described in the Table below.
 
 
 |   Field Name    |                     Description                      |
